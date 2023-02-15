@@ -1,8 +1,7 @@
 :root {
-    --background: #7B92A6;
-    --grey: #C3C3E6;
+    --background: #ffdfc3;
     --orange: #F28D35;
-    --burntsienna: #A63F03;
+    --burntsienna: #a04b1a;
     --darkburntsienna: #732002;
     --blues1:#296CA6;
     --blues2:#148DD9;
@@ -10,7 +9,105 @@
     --brown:#733D38;
     --text: #400101;
 }
+/* nav */
 
+nav {
+    font-family: ;
+    width: 100%;
+    position: relative;
+    height:65px;
+    background: var(--background);
+    border-bottom: 2px solid var(--brown);
+    border-top: 2px solid var(--brown);
+    
+  }
+
+
+.menu-item{
+    width: 20%;
+    text-align: center;
+    display: flex;
+    background-color: var(--background);
+}
+  
+ul {
+
+    list-style: none;
+    margin: auto;
+    padding-left: 0;
+    padding: auto;
+  }
+  
+  .menu-item {
+    color: var(--background);
+    background: var(--brown);
+    display: block;
+    float: left;
+    padding:  0;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-weight: 900;
+  }
+
+.menu-item ul li{
+    padding:25px 0;
+    font-weight: 1200;
+  }
+    
+  #nav li a {
+    color: var(--background);
+  }
+  
+.menu-item:hover,
+.menu-item:focus-within 
+.menu-item ul li ul:hover,
+.menu-item  ul li ul:focus-within {
+    background: var(--orange);
+    cursor: pointer;
+  }
+  
+li:focus-within a {
+    outline: none;
+  }
+  
+ul li ul {
+    background: var(--burntsienna);
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    padding:auto 0;
+    width: 100%;
+    margin-top:21px;
+    z-index: 2;
+  }
+  
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+     visibility: visible;
+     opacity: 1;
+  }
+  
+ ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+
+ul li ul li:hover {
+    background: var(--blues3);
+  }
+
+
+
+
+
+/* footer */
 .site-footer
 {
   background-color: var(--brown);
