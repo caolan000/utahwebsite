@@ -1,3 +1,42 @@
+body{
+    margin: 0px;
+}
 .content-wrapper {
-    
+    display: flex;
+    height: 100%;
+    margin: 0;
+}
+
+.header-picture {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    /* remove color later */
+    background-color: red;
+}
+
+.header-picture> .greeting {
+    display: flex;
+    height: 1fr;
+    width: 50%;
+    justify-content: left;
+    /* remove color later */
+    background-color: blue;
+    margin: 50px 30px;
+}
+
+.icon-wrapper {
+
+}
+
+.icon-wrapper > .icon {
+
+}
+
+.gallary-wrapper {
+
+}
+
+.gallary-wrapper > .gallary {
+
 }
