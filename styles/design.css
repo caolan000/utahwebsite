@@ -1,0 +1,9 @@
+.header-picture {
+    background-image: url(../images/54925-sun-rising-over-mesa-arch-canyonlands-utah-2022-03-04-02-38-40-utc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-picture > .greeting {
+    
+}

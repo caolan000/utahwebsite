@@ -12,8 +12,6 @@ body{
     display: flex;
     height: 500px;
     width: 100%;
-    /* remove color later */
-    background-color: red;
 }
 
 .header-picture> .greeting {
