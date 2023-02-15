@@ -10,7 +10,7 @@
     --text: #400101;
 }
 /* nav */
-
+/* Jonathan Coleby's styling */
 nav {
     font-family: ;
     width: 100%;
@@ -22,9 +22,12 @@ nav {
     
   }
 
+  ul{
+    font-size: small;
+  }
 
 .menu-item{
-    width: 20%;
+    width: 12.5%;
     text-align: center;
     display: flex;
     background-color: var(--background);
