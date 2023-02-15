@@ -1,8 +1,7 @@
 :root {
-    --background: #7B92A6;
-    --grey: #C3C3E6;
+    --background: #ffdfc3;
     --orange: #F28D35;
-    --burntsienna: #A63F03;
+    --burntsienna: #a04b1a;
     --darkburntsienna: #732002;
     --blues1:#296CA6;
     --blues2:#148DD9;
@@ -10,7 +9,15 @@
     --brown:#733D38;
     --text: #400101;
 }
+/* nav */
 
+
+
+
+
+
+
+/* footer */
 .site-footer
 {
   background-color: var(--brown);
