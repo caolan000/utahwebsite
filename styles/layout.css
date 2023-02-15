@@ -28,10 +28,11 @@ body{
 
 .icon-wrapper {
     display: flex;
-    height: 50px;
+    height: 75px;
     width: 100%;
     /* remove color later */
     background-color: pink;
+    margin-top: 30px;
 }
 
 .icon-wrapper > .icon {
@@ -39,7 +40,11 @@ body{
 }
 
 .gallary-wrapper {
-
+    display: flex;
+    height: 500px;
+    /* remove color later */
+    background-color: green;
+    margin: 30px 30px 0px 30px;
 }
 
 .gallary-wrapper > .gallary {
