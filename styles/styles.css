@@ -10,3 +10,77 @@
     --brown:#733D38;
     --text: #400101;
 }
+
+.site-footer
+{
+  background-color: var(--brown);
+  padding:45px;
+  font-size:15px;
+  line-height:24px;
+  color: var(--text);
+}
+
+.site-footer a
+{
+  color: var(--text);
+}
+.site-footer .social-icons
+{
+  text-align:right;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons li
+{
+  display:inline-block;
+  margin: 2px;
+}
+.social-icons li.title
+{
+  text-transform:uppercase;
+  color:var(--text);
+  font-weight:700;
+  font-size:13px;
+}
+.social-icons a{
+  background-color: var(--background);
+  color:var(--orange);
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear;
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:var(--5);
+  background-color:var(--2);
+}
+.social-icons.size-sm a
+{
+  line-height: 1fr;
+  height:34px;
+  width:34px;
+  font-size:14px;
+}
+.social-icons a:hover
+{
+  background-color:var(--2);
+}
