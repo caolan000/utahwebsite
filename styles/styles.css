@@ -70,8 +70,8 @@
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
-  color:var(--5);
-  background-color:var(--2);
+  color:var(--burntsienna);
+  background-color:var(--blues1);
 }
 .social-icons.size-sm a
 {
@@ -82,5 +82,5 @@
 }
 .social-icons a:hover
 {
-  background-color:var(--2);
+  background-color:var(--blues3);
 }
