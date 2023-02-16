@@ -53,8 +53,8 @@ ul {
   }
 
 .menu-item ul li{
-    padding:25px 0;
-    font-weight: 1200;
+    padding: 25px 0;
+    font-weight: ;
   }
     
   #nav li a {
@@ -65,7 +65,7 @@ ul {
 .menu-item:focus-within 
 .menu-item ul li ul:hover,
 .menu-item  ul li ul:focus-within {
-    background: var(--orange);
+    background: #733d3863;
     cursor: pointer;
   }
   
@@ -92,18 +92,56 @@ ul li:hover > ul,
 ul li:focus-within > ul,
 ul li ul:hover,
 ul li ul:focus {
-     visibility: visible;
-     opacity: 1;
+  visibility: visible;
+  opacity: 1;
   }
   
- ul li ul li {
+th td {
     clear: both;
-    width: 100%;
+    display: flex;
   }
 
-ul li ul li:hover {
-    background: var(--blues3);
+th, td:hover {
+    background: #733d3863;
   }
+
+/* table {
+  background-color: var(--background);
+
+} */
+table {
+  table-layout: auto;
+  width: 100%;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
 
 
 
