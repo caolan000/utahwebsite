@@ -6,6 +6,7 @@ body{
     flex-direction: column;
     margin: 0;
     justify-content: space-between;
+	width: 100%;
 }
 
 .header-picture {
@@ -19,8 +20,6 @@ body{
     height: 1fr;
     width: 50%;
     justify-content: left;
-    /* remove color later */
-    background-color: blue;
     margin: 50px 30px;
 }
 
