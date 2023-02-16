@@ -6,7 +6,7 @@
     --blues1:#296CA6;
     --blues2:#148DD9;
     --blues3:#11A0D9;
-    --brown:#733D38;
+    --brown:#966D6A;
     --text: #400101;
 }
 /* nav */
@@ -41,7 +41,6 @@ ul {
   }
   
   .menu-item {
-    color: var(--background);
     background: var(--brown);
     display: block;
     float: left;
@@ -50,6 +49,11 @@ ul {
     text-decoration: none;
     transition-duration: 0.5s;
     font-weight: 900;
+  }
+  .menu-item a {
+    color: var(--background);
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
   }
 
 .menu-item ul li{
@@ -100,39 +104,27 @@ th td {
     clear: both;
     display: flex;
   }
+th {
+   letter-spacing: 2px;
+}
+td {
+   letter-spacing: 1px;
+ }
 
 th, td:hover {
     background: #733d3863;
   }
 
-/* table {
-  background-color: var(--background);
-
-} */
 table {
+  background-color: var(--background);
   table-layout: auto;
-  width: 100%;
+  width: 800%;
+
 }
 
-thead th:nth-child(1) {
-  width: 30%;
-}
 
-thead th:nth-child(2) {
-  width: 20%;
-}
-
-thead th:nth-child(3) {
-  width: 15%;
-}
-
-thead th:nth-child(4) {
-  width: 35%;
-}
-
-th,
-td {
-  padding: 20px;
+th, td {
+  padding: 20px 30px;
 }
 
 
