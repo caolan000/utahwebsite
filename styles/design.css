@@ -1,5 +1,6 @@
 body{
     font-family: "Ubuntu", sans-serif;
+    background-color: linen;
 }
 
 .header-picture {
@@ -29,6 +30,7 @@ body{
     color: linen;
     letter-spacing: 1px;
     line-height: 30px;
+    padding: 20px;
 }
 
 .header-picture > .greeting > h2 {
@@ -36,10 +38,18 @@ body{
     letter-spacing: 1px;
     font-size: 1fr;
     line-height: 30px;
+    padding-left: 20px;
+
 }
 
 .icon-wrapper {
     background-color: var(--brown);
+    box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+.text-stuff {
+    background-color: var(--brown);
+    border-radius: 4px;
 }
 
 /* this is the text for the three lines on top */

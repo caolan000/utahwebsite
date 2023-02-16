@@ -11,13 +11,14 @@
 }
 /* nav */
 nav {
-    font-family: ;
+    font-family: "Ubuntu", sans-serif;
     width: 100%;
     position: relative;
     height:65px;
     background: var(--background);
     border-bottom: 2px solid var(--brown);
     border-top: 2px solid var(--brown);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
     
   }
 
