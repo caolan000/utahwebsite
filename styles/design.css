@@ -5,5 +5,8 @@
 }
 
 .header-picture > .greeting {
-    
+    background-color: var(--brown);
+    opacity: 0.6;
+    border: 5px solid var(--text);
+    border-radius: 4px;
 }
