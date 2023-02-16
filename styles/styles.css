@@ -22,11 +22,11 @@ nav {
   }
 
 .menu-item{
-  width: 12%;
+  width: 12.5%;
   height: 100%;
   display: flex;
   text-align: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: var(--background);
 }
   
@@ -58,7 +58,6 @@ ul {
 
 .menu-item ul li{
     padding: 25px 0;
-    font-weight: ;
   }
     
   #nav li a {
