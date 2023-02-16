@@ -17,7 +17,7 @@ body{
 }
 
 .header-picture > .greeting > p {
-    color: white;
+    color: linen;
     font-family: "roboto", sans-serif;
     letter-spacing: 1px;
     font-size: 1fr;
@@ -26,19 +26,28 @@ body{
 }
 
 .header-picture > .greeting > h1 {
-    color: white;
+    color: linen;
     letter-spacing: 1px;
     line-height: 30px;
 }
 
 .header-picture > .greeting > h2 {
-    color: white;
+    color: linen;
     letter-spacing: 1px;
     font-size: 1fr;
     line-height: 30px;
 }
 
+.icon-wrapper {
+    background-color: var(--brown);
+}
+
 /* this is the text for the three lines on top */
 .content-map{
-
+    font-family: "roboto", sans-serif;
+    padding: 10px 50px 0px 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: var(--text);
 }
