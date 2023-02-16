@@ -1,3 +1,7 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+}
+
 .header-picture {
     background-image: url(../images/54925-sun-rising-over-mesa-arch-canyonlands-utah-2022-03-04-02-38-40-utc.jpg);
     background-repeat: no-repeat;
@@ -5,8 +9,31 @@
 }
 
 .header-picture > .greeting {
-    background-color: var(--brown);
-    opacity: 0.6;
+    background-color: rgba(115, 61, 56, 0.5);
     border: 5px solid var(--text);
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-picture > .greeting > p {
+    color: white;
+    font-family: "roboto", sans-serif;
+    letter-spacing: 1px;
+    font-size: 1fr;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.header-picture > .greeting > h1 {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.header-picture > .greeting > h2 {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1fr;
+    line-height: 30px;
 }
