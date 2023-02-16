@@ -10,7 +10,7 @@ body{
 }
 
 .header-picture > .greeting {
-    background-color: var(--background);
+    background-color:rgba(150, 109, 106, 0.5);
     border: 5px solid var(--text);
     border-radius: 4px;
     display: flex;
