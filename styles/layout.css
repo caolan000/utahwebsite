@@ -32,6 +32,11 @@ body{
     margin-top: 30px;
 }
 
+.icon-wrapper > .icon{
+ justify-content: space-around;
+ 
+}
+
 
 
 .text-stuff {
