@@ -33,7 +33,8 @@ body{
 }
 
 .icon-wrapper > .icon{
-
+ justify-content: space-around;
+ 
 }
 
 
